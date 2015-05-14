@@ -39,6 +39,12 @@
       "address": "consul.internal.connectedfleet.io",
       "datacenter": "internal-east",
       "key": "amis/{{user `ami_name`}}/{{user `ami_version`}}"
+    },
+    {
+      "type": "consul",
+      "address": "consul.internal.connectedfleet.io",
+      "datacenter": "internal-east",
+      "key": "amis/{{user `ami_name`}}/latest"
     }
   ]
 }

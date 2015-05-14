@@ -7,22 +7,10 @@ This AMI contains the following items:
 * Java
 * Docker
 * Userify Shim
-* Userify Credentials from User Date Upstart
+* Userify Credentials from User Data Upstart
 * Peoplenet Consul Configuration
-
-## Versions
-
-* `1.0.5`
-  * Updated logstash role with fixed env var.
-* `1.0.4` - `ami-baf1f6d2`
-  * Updated logstash role to handle delay in EC2 tags.
-* `1.0.3` - `ami-4ae9ec22`
-  * Still fixing logstash issues
-* `1.0.2` - `ami-4aede822`
-  * Update logstash role due to missing literal " in command.
-* `1.0.1` - `ami-3ee4e156`
-  * Lock versions, included Environment in all logstash tags
-* `1.0.0` - `ami-b8c3f9d0`
+* Stackdriver Agent & API Key
+* Logstash default logging configuration
 
 ## Notes
 

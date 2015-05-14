@@ -20,3 +20,6 @@
 - src: git+git@github.com:PeopleNet/ansible-logstash.git
   version: 1.0.7
   name: logstash
+
+- src: rimey.stackdriver
+  name: stackdriver
