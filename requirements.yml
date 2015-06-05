@@ -1,5 +1,5 @@
 - src:  git+git@github.com:PeopleNet/ansible-aws-scripts.git
-  version: 1.0.1
+  version: 1.0.5
   name: aws-scripts
 
 - src: git+git@github.com:PeopleNet/ansible-consul.git
@@ -18,8 +18,16 @@
   name: docker
 
 - src: git+git@github.com:PeopleNet/ansible-logstash.git
-  version: 1.0.7
+  version: 1.0.8
   name: logstash
+
+- src: git+git@github.com:PeopleNet/ansible-erase-ssh-keys.git
+  version: 1.0.0
+  name: erase-ssh-keys
+
+- src: git+git@github.com:PeopleNet/ansible-base.git
+  version: 1.1.0
+  name: base
 
 - src: rimey.stackdriver
   name: stackdriver
