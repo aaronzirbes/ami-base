@@ -3,6 +3,9 @@
   sudo: yes
   gather_facts: yes
   roles:
+    - role: base
+    - role: aws-scripts
+    - role: erase-ssh-keys
     -
       role: java
       java_packages:
