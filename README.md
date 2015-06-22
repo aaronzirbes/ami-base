@@ -5,6 +5,7 @@ This AMI contains the following items:
 
 * Ansible
 * Java
+* Consul
 * Docker
 * Userify Shim
 * Userify Credentials from User Data Upstart
